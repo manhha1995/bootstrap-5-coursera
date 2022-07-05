@@ -47,6 +47,9 @@
             <div class="col-12 col-sm align-self-center">
                 <img src="./img/logo.png" class="img-fluid">
             </div>
+            <div class="col-12 col-sm-6">
+                <button class="btn btn-warning">Reserve Table</button>
+            </div>
         </div>
     </header>
 
@@ -73,8 +76,14 @@
                 <h3>This Month's Promotions</h3>
             </div>
             <div class="col col-sm order-sm-last col-md">
-                <h2>Weekend Grand Buffet</h2>
-                <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                <div class="media">
+                    <img class="d-flex mr-3 imag-thumbnail align-self-center"
+                     src="./img/buffet.png" class="img-fluid">
+                    <div class="media-body">
+                        <h2>Weekend Grand Buffet<span class="badge bg-danger">NEW</span></h2>
+                        <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -93,6 +102,52 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="row row-content border border-light">
+            <div class="col-12">
+                <p class="p-3 mb-2 bg-warning text-white"><strong>Reserve a Table</strong></p>
+            </div>
+            <form>
+                <div class="form-check form-check-inline">
+                    <label for="numberofguests" class="col-sm-1 col-form-label">Number of Guests</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <label for="number" class="form-check-label">1</label>
+                    <input type="radio" class="form-check-input">
+                </div>                                
+                <div class="form-check form-check-inline">
+                    <label for="number" class="form-check-label">2</label>
+                <input type="radio" class="form-check-input">
+                </div>                                
+                <div class="form-check form-check-inline">
+                    <label for="number" class="form-check-label">3</label>
+                    <input type="radio" class="form-check-input">
+                </div>                                
+                <div class="form-check form-check-inline">
+                    <label for="number" class="form-check-label">4</label>
+                    <input type="radio" class="form-check-input">
+                </div>                                
+                <div class="form-check form-check-inline">
+                    <label for="number" class="form-check-label">5</label>
+                    <input type="radio" class="form-check-input">
+                </div>                                
+                <div class="form-check form-check-inline">
+                    <label for="number" class="form-check-label">6</label>
+                    <input type="radio" class="form-check-input">
+                </div>
+                <div class="form-group row">
+                    <label for="dateandtime" class="col-sm-1 col-form-label">Date and Time</label> 
+                    <div class="col-2 col-sm-3">
+                        <input type="text" name="date" id="#date" placeholder="Date" class="form-group">
+                    </div>
+                    <div class="col-3 col-sm-7">
+                        <input type="text" name="time" id="#time" placeholder="Time" class="form-group">
+                    </div> 
+                </div>    
+                <div class="form-group row">
+                    <button type="button" class="btn btn-primary btn-lg col-2">Reserve</button>
+                </div>                            
+            </form>
         </div>
     </div>
 
